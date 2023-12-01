@@ -8,7 +8,7 @@ from pythonping import ping
 import time
 
 
-bot = telebot.TeleBot('5752748301:AAFxZprMFki5pr7Tw1AUgx6gsHNjLQkSYjA')
+bot = telebot.TeleBot('')
 response_list = ping('tststsfam.tplinkdns.com')
 @bot.message_handler(commands=['start'])
 def start(message):
